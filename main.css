@@ -183,7 +183,7 @@
 }	
 .main_item1{
 	width: 100%;
-	height: 295px;
+	height: 305px;
 	display: flex;
 	margin-bottom: 30px;
 	box-sizing: border-box;
@@ -196,14 +196,16 @@
 	box-sizing: border-box;
 	background: white;
 	border-radius: 5px;
-	margin: 10px 20px;
+	margin: 10px 35px;
+	overflow-x: scroll;
+	overflow-y: hidden;
 }
 .items2 h2{
 	margin: 15px;
+	text-align: center;
 }
 .items2 a{
-	padding: 7px;
-	padding-right: 15px;
+	padding: 0 25px;
 	text-decoration: none;
 	font-size: 15px;
 	text-align: right;
