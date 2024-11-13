@@ -1,0 +1,152 @@
+/* General Styles */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+	width: 100%;
+	height: auto;
+}
+
+.header {
+    background-color: #131921;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.header__logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+.header-location{
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	margin-left: 8px;
+	cursor: pointer;
+	border: 1px solid  #131921;
+	
+}
+ .location{
+	display: flex;
+}
+.header-location:hover{
+	border: 1px solid white;
+	border-radius: 4px;
+}
+.header__search {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.header__search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header__search button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	display: flex;	
+}
+#itemButt p{
+	padding-top: 4px;
+}
+.header__nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+	border: 1px solid #131921;
+	padding: 5px;
+}
+.header__nav a:hover{
+	border: 1px solid white;
+	border-radius: 3px;
+}
+.navBar{
+	 background-color: #232f3e;
+	 display: flex;
+	 flex: 1;
+	 justify-content: space-around;
+	 align-items: center;
+	 padding: 10px;
+	 overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-color: #232f3e #232f3e;
+	scrollbar-width: none;
+}
+.navBar button{
+	padding: 4px 7px;
+	margin-left: -5px;
+	 background-color: #232f3e;
+    color: white;
+	border: none;
+	outline: none;
+	display: flex;
+	border: 1px solid  #232f3e;
+}
+.navBar .login_button{
+	display: none;
+	width: 100px;
+}
+
+.navBar a{
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	padding: 8px;
+	border: 1px solid  #232f3e;
+}
+.navBar a:hover,
+.navBar button:hover{
+	border: 1px solid white;
+	border-radius: 3px;
+	
+}
+.items-list{
+	position: absolute;
+    top: 58px;
+    left: 421px;
+    background: white;
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+    z-index: 111;
+	display: flex;
+	flex-direction: column;
+	display: none;
+}
+.items-list .items{
+	padding: 8px;
+	border: 0 solid;
+	width: 100%;
+	font-size: 15px;
+}
+.items-list .items:hover{
+	background: blue;
+	color: white;
+	cursor: pointer;
+}
+.items-list.active{
+	display: block;
+	display: flex;
+	flex-direction: column;
+}

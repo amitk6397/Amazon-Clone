@@ -1,0 +1,221 @@
+@media screen and (max-width:1000px){
+	.items2 a{
+		margin: 10px 0px;
+	}
+
+	.items1 a{
+		padding-left: 25px;
+	}
+
+	.main_item .items1{
+		height: 550px;
+		margin: 0px 5px;
+	}
+
+	.main_item{	
+		height: auto;
+	}
+}
+
+@media screen and (max-width:600px){
+	.header{
+		display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+	}
+	.header__nav{
+		display: none;
+		
+	}
+	.navBar .login_button{
+		display: block;	
+	}
+
+	.items-list{
+	    position: absolute;
+		top: 140px;
+		left: 65px;
+		background: white;
+		width: 200px;
+		height: 300px;
+		overflow: auto;
+		display: flex;
+		flex-direction: column;
+		display: none;
+	}
+	.main_item{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.main_item .items1{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		width: 380px;
+		height: 500px;
+		box-sizing: border-box;
+		background: white;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+	.items1 h2{
+		margin: 10px 20px;
+		font-size: 18px;
+	}
+	.items1 a{
+		padding: 7px;
+		margin-left: 10px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	.cloth_item{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex: 1;
+		height: 200px;
+	}			
+	.items1 .image1{
+		width: 150px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		border: none;
+		background: white;
+		border-radius: 5px;
+		box-shadow: 0 0 2px 4px rgba(0,0,0,0.03);
+		margin: 10px;
+		cursor: pointer;
+		object-fit: cover;
+	
+	}
+	.image1 img{
+		object-fit:cover;
+		width: 100%;
+		height: 170px
+	}
+	.image1 span{
+		padding: 0 0 5px 10px;
+		font-size: 12px;
+		color: grey;
+		font-weight: 500;
+		cursor: pointer;
+	}	
+
+	.main_item1{
+		width: 100%;
+		height: 300px;
+		display: flex;
+		margin-bottom: 30px;
+		box-sizing: border-box;
+	}
+	.main_item1 .items2{
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		height: 100%;
+		box-sizing: border-box;
+		background: white;
+		border-radius: 5px;
+		margin: 0 10px 20px 10px;
+	}
+	.items2 h2{
+		margin: 15px;
+	}
+	.items2 a{
+		padding: 7px;
+		padding-right: 15px;
+		text-decoration: none;
+		font-size: 15px;
+		text-align: right;
+		width:100%;
+	}
+
+	.items2 .image2{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.items2 .image2 img{
+		width: 160px;
+		height: 200px;
+		display: flex;
+		border: none;
+		background: white;
+		border-radius: 5px;
+		cursor: pointer;
+		object-fit: contain;
+		margin: 0 10px;
+	}
+	
+	.footer_contect{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding-top: 20px;
+		background: #232F3E;
+		border-bottom: 1px solid #D7D5D8;
+	}
+	.contect_top{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+	}
+	.contect_down{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+	}
+	.contect1{
+		display: flex; 
+		background: #232F3E;
+		margin-bottom: 60px;
+	}
+	.contect1 a{
+		text-decoration: none;
+		margin-top: 10px;
+		color: #D7D5D8;
+		font-size: 12px;
+	}
+	.contect1 h2{
+		font-size: 18px;
+	}
+	.login_body{
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0.25);
+		display: none;
+	}
+	.login_body.active{
+		display: flex;
+		position: absolute;
+		top: 261px;
+		left: -20px;
+		margin: 0 10px;
+	}
+	.login-container {
+		background: #fff;
+		padding: 2rem;
+		border-radius: 8px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		flex:1;
+		height: 350px;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}
